@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ash Cygan | Results</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; color: #222; }
+    header { background: #1a1a2e; color: white; padding: 20px; text-align: center; }
+    nav { background: #16213e; display: flex; justify-content: center; gap: 20px; padding: 12px; flex-wrap: wrap; }
+    nav a { color: #e94560; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    main { padding: 30px 20px; max-width: 900px; margin: auto; }
+    section { background: #f4f4f4; padding: 20px; border-radius: 8px; margin-top: 20px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+    th { background: #1a1a2e; color: white; padding: 10px; text-align: left; }
+    td { padding: 10px; border: 1px solid #ccc; }
+    tr:nth-child(even) { background: #e9e9e9; }
+    tfoot td { background: #16213e; color: white; font-weight: bold; }
+    footer { background: #1a1a2e; color: white; text-align: center; padding: 15px; margin-top: 40px; }
+  </style>
+</head>
+<body>
+
+  <!-- Site header -->
+  <header>
+    <h1>Ash Cygan</h1>
+    <p>BIT Student | Graphics Designer | Voice Artist</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">Bio</a>
+    <a href="gallery.html">Media</a>
+    <a href="data.html">Results</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+
+    <!-- Academic marks table -->
+    <section>
+      <h2>Academic Marks</h2>
+      <table>
+
+        <!-- Table head -->
+        <thead>
+          <tr>
+            <th scope="col">Course Code</th>
+            <th scope="col">Course Name</th>
+            <th scope="col">Credit Units</th>
+            <th scope="col">Mark (%)</th>
+            <th scope="col">Grade</th>
+          </tr>
+        </thead>
+
+        <!-- Table body with scope for accessibility -->
+        <tbody>
+          <tr>
+            <td scope="row">BIT1203</td>
+            <td>Web Design and Development</td>
+            <td>3</td>
+            <td>85</td>
+            <td>A</td>
+          </tr>
+          <tr>
+            <td scope="row">BIT1101</td>
+            <td>Introduction to Programming (Python)</td>
+            <td>3</td>
+            <td>78</td>
+            <td>B</td>
+          </tr>
+          <tr>
+            <td scope="row">BIT1102</td>
+            <td>Object Oriented Programming (Java)</td>
+            <td>3</td>
+            <td>74</td>
+            <td>B</td>
+          </tr>
+          <tr>
+            <td scope="row">BIT1104</td>
+            <td>Probability and Statistics</td>
+            <td>3</td>
+            <td>70</td>
+            <td>B</td>
+          </tr>
+          <tr>
+            <td scope="row">BIT1105</td>
+            <td>Political Theory</td>
+            <td>2</td>
+            <td>80</td>
+            <td>A</td>
+          </tr>
+        </tbody>
+
+        <!-- Table footer with summary -->
+        <tfoot>
+          <tr>
+            <td colspan="3">Overall Average</td>
+            <td>77.4</td>
+            <td>B</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </section>
+
+    <!-- Skill proficiency table -->
+    <section>
+      <h2>Skill Proficiency</h2>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Skill</th>
+            <th scope="col">Category</th>
+            <th scope="col">Proficiency Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td scope="row">HTML & CSS</td>
+            <td>Web Development</td>
+            <td>Intermediate</td>
+          </tr>
+          <tr>
+            <td scope="row">Python</td>
+            <td>Programming</td>
+            <td>Intermediate</td>
+          </tr>
+          <tr>
+            <td scope="row">Java</td>
+            <td>Programming</td>
+            <td>Beginner</td>
+          </tr>
+          <tr>
+            <td scope="row">Graphic Design</td>
+            <td>Creative</td>
+            <td>Advanced</td>
+          </tr>
+          <tr>
+            <td scope="row">Voiceover</td>
+            <td>Creative</td>
+            <td>Advanced</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">MUST — Bachelor of Information Technology</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Ash Cygan | BIT1203 Web Design & Development | MUST</p>
+  </footer>
+
+</body>
+</html>
