@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ash Cygan | Media</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; color: #222; }
+    header { background: #1a1a2e; color: white; padding: 20px; text-align: center; }
+    nav { background: #16213e; display: flex; justify-content: center; gap: 20px; padding: 12px; flex-wrap: wrap; }
+    nav a { color: #e94560; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    main { padding: 30px 20px; max-width: 900px; margin: auto; }
+    section { background: #f4f4f4; padding: 20px; border-radius: 8px; margin-top: 20px; }
+    .gallery-grid { display: flex; flex-wrap: wrap; gap: 15px; margin-top: 15px; }
+    figure { background: white; border-radius: 8px; padding: 10px; width: 100%; max-width: 260px; }
+    figure img { width: 100%; border-radius: 6px; }
+    figcaption { text-align: center; margin-top: 8px; font-size: 0.9em; color: #555; }
+    footer { background: #1a1a2e; color: white; text-align: center; padding: 15px; margin-top: 40px; }
+  </style>
+</head>
+<body>
+
+  <!-- Site header -->
+  <header>
+    <h1>Ash Cygan</h1>
+    <p>BIT Student | Graphics Designer | Voice Artist</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">Bio</a>
+    <a href="gallery.html">Media</a>
+    <a href="data.html">Results</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+
+    <!-- Image gallery using figure and figcaption -->
+    <section>
+      <h2>Photo Gallery</h2>
+      <div class="gallery-grid">
+
+        <figure>
+          <!-- Graphic design work sample -->
+          <img src="images/design1.jpg" alt="Ash Graphics logo design poster created for a client" />
+          <figcaption>Ash Graphics — Client Logo Design</figcaption>
+        </figure>
+
+        <figure>
+          <!-- University campus photo -->
+          <img src="images/campus.jpg" alt="Mbarara University of Science and Technology main campus building" />
+          <figcaption>MUST Campus — My University</figcaption>
+        </figure>
+
+        <figure>
+          <!-- Voiceover work photo -->
+          <img src="images/voiceover.jpg" alt="Recording setup used during professional voiceover sessions" />
+          <figcaption>Voiceover Recording Setup</figcaption>
+        </figure>
+
+      </div>
+    </section>
+
+    <!-- Embedded video using object tag -->
+    <section>
+      <h2>Featured Video</h2>
+      <!-- Embedded YouTube video using object for accessibility -->
+      <object
+        data="https://www.youtube.com/embed/dQw4w9WgXcQ"
+        type="text/html"
+        width="100%"
+        height="300"
+        title="Introduction to Web Development - Featured Video">
+        <p>Your browser does not support embedded videos. 
+        <a href="https://www.youtube.com">Visit YouTube</a> to watch.</p>
+      </object>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Ash Cygan | BIT1203 Web Design & Development | MUST</p>
+  </footer>
+
+</body>
+</html>
