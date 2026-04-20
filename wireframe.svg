@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="500" font-family="Arial" font-size="13">
+
+  <!-- Background -->
+  <rect width="700" height="500" fill="#f9f9f9"/>
+
+  <!-- Title -->
+  <text x="350" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a2e">Wireframe — Home Page (index.html)</text>
+
+  <!-- HEADER -->
+  <rect x="30" y="50" width="640" height="60" rx="6" fill="#1a1a2e"/>
+  <text x="350" y="75" text-anchor="middle" fill="white" font-weight="bold">&lt;header&gt;</text>
+  <text x="350" y="98" text-anchor="middle" fill="#e94560">Site Title &amp; Tagline</text>
+
+  <!-- NAV -->
+  <rect x="30" y="120" width="640" height="45" rx="6" fill="#16213e"/>
+  <text x="350" y="138" text-anchor="middle" fill="white" font-weight="bold">&lt;nav&gt;</text>
+  <text x="350" y="158" text-anchor="middle" fill="#e94560">Home | Bio | Media | Results | Contact</text>
+
+  <!-- MAIN -->
+  <rect x="30" y="175" width="640" height="200" rx="6" fill="#e9e9e9" stroke="#aaa" stroke-width="2"/>
+  <text x="350" y="200" text-anchor="middle" fill="#333" font-weight="bold">&lt;main&gt;</text>
+
+  <!-- ARTICLE inside main -->
+  <rect x="50" y="210" width="600" height="150" rx="6" fill="#fff" stroke="#ccc" stroke-width="1.5"/>
+  <text x="350" y="235" text-anchor="middle" fill="#1a1a2e" font-weight="bold">&lt;article&gt; — Professional Introduction</text>
+  <text x="350" y="260" text-anchor="middle" fill="#555">Heading: Welcome to My Portfolio</text>
+  <text x="350" y="285" text-anchor="middle" fill="#555">Paragraph: About Ash Cygan</text>
+  <text x="350" y="310" text-anchor="middle" fill="#555">Paragraph: Skills &amp; Services</text>
+  <text x="350" y="335" text-anchor="middle" fill="#555">Paragraph: Invitation to explore</text>
+
+  <!-- ASIDE -->
+  <rect x="30" y="385" width="300" height="60" rx="6" fill="#dce8f5" stroke="#aaa" stroke-width="1.5"/>
+  <text x="180" y="410" text-anchor="middle" fill="#1a1a2e" font-weight="bold">&lt;aside&gt;</text>
+  <text x="180" y="432" text-anchor="middle" fill="#555">Quick Links / Highlights</text>
+
+  <!-- SECTION -->
+  <rect x="370" y="385" width="300" height="60" rx="6" fill="#dce8f5" stroke="#aaa" stroke-width="1.5"/>
+  <text x="520" y="410" text-anchor="middle" fill="#1a1a2e" font-weight="bold">&lt;section&gt;</text>
+  <text x="520" y="432" text-anchor="middle" fill="#555">Featured Skills</text>
+
+  <!-- FOOTER -->
+  <rect x="30" y="455" width="640" height="40" rx="6" fill="#1a1a2e"/>
+  <text x="350" y="480" text-anchor="middle" fill="white" font-weight="bold">&lt;footer&gt; — Copyright &amp; Info</text>
+
+</svg>
