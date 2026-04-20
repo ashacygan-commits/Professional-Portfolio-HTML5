@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="550" font-family="Arial" font-size="13">
+
+  <!-- Background -->
+  <rect width="700" height="550" fill="#f9f9f9"/>
+
+  <!-- Title -->
+  <text x="350" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a2e">Wireframe — Gallery Page (gallery.html)</text>
+
+  <!-- HEADER -->
+  <rect x="30" y="50" width="640" height="60" rx="6" fill="#1a1a2e"/>
+  <text x="350" y="75" text-anchor="middle" fill="white" font-weight="bold">&lt;header&gt;</text>
+  <text x="350" y="98" text-anchor="middle" fill="#e94560">Site Title &amp; Tagline</text>
+
+  <!-- NAV -->
+  <rect x="30" y="120" width="640" height="45" rx="6" fill="#16213e"/>
+  <text x="350" y="138" text-anchor="middle" fill="white" font-weight="bold">&lt;nav&gt;</text>
+  <text x="350" y="158" text-anchor="middle" fill="#e94560">Home | Bio | Media | Results | Contact</text>
+
+  <!-- MAIN -->
+  <rect x="30" y="175" width="640" height="290" rx="6" fill="#e9e9e9" stroke="#aaa" stroke-width="2"/>
+  <text x="350" y="198" text-anchor="middle" fill="#333" font-weight="bold">&lt;main&gt;</text>
+
+  <!-- Photo Gallery Section -->
+  <rect x="50" y="205" width="600" height="130" rx="6" fill="#fff" stroke="#ccc" stroke-width="1.5"/>
+  <text x="350" y="225" text-anchor="middle" fill="#1a1a2e" font-weight="bold">&lt;section&gt; — Photo Gallery</text>
+
+  <!-- Figure boxes -->
+  <rect x="65" y="235" width="170" height="85" rx="4" fill="#dce8f5" stroke="#aaa"/>
+  <text x="150" y="270" text-anchor="middle" fill="#333">&lt;figure&gt;</text>
+  <text x="150" y="290" text-anchor="middle" fill="#555">img + figcaption</text>
+
+  <rect x="255" y="235" width="170" height="85" rx="4" fill="#dce8f5" stroke="#aaa"/>
+  <text x="340" y="270" text-anchor="middle" fill="#333">&lt;figure&gt;</text>
+  <text x="340" y="290" text-anchor="middle" fill="#555">img + figcaption</text>
+
+  <rect x="445" y="235" width="170" height="85" rx="4" fill="#dce8f5" stroke="#aaa"/>
+  <text x="530" y="270" text-anchor="middle" fill="#333">&lt;figure&gt;</text>
+  <text x="530" y="290" text-anchor="middle" fill="#555">img + figcaption</text>
+
+  <!-- Video Section -->
+  <rect x="50" y="345" width="600" height="105" rx="6" fill="#fff" stroke="#ccc" stroke-width="1.5"/>
+  <text x="350" y="365" text-anchor="middle" fill="#1a1a2e" font-weight="bold">&lt;section&gt; — Featured Video</text>
+  <rect x="200" y="375" width="300" height="65" rx="4" fill="#dce8f5" stroke="#aaa"/>
+  <text x="350" y="405" text-anchor="middle" fill="#333">&lt;object&gt; Embedded Video</text>
+  <text x="350" y="428" text-anchor="middle" fill="#555">with fallback text</text>
+
+  <!-- FOOTER -->
+  <rect x="30" y="475" width="640" height="40" rx="6" fill="#1a1a2e"/>
+  <text x="350" y="500" text-anchor="middle" fill="white" font-weight="bold">&lt;footer&gt; — Copyright &amp; Info</text>
+
+</svg>
