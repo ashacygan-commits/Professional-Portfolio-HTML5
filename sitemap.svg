@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="400" font-family="Arial" font-size="14">
+
+  <!-- Background -->
+  <rect width="700" height="400" fill="#f9f9f9"/>
+
+  <!-- Title -->
+  <text x="350" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a2e">Site Map — Professional Portfolio</text>
+
+  <!-- index.html box (center top) -->
+  <rect x="250" y="60" width="200" height="50" rx="8" fill="#1a1a2e"/>
+  <text x="350" y="80" text-anchor="middle" fill="white" font-weight="bold">index.html</text>
+  <text x="350" y="100" text-anchor="middle" fill="#e94560">(Home)</text>
+
+  <!-- Lines from index to sub pages -->
+  <line x1="350" y1="110" x2="80" y2="200" stroke="#555" stroke-width="2"/>
+  <line x1="350" y1="110" x2="230" y2="200" stroke="#555" stroke-width="2"/>
+  <line x1="350" y1="110" x2="380" y2="200" stroke="#555" stroke-width="2"/>
+  <line x1="350" y1="110" x2="530" y2="200" stroke="#555" stroke-width="2"/>
+  <line x1="350" y1="110" x2="630" y2="200" stroke="#555" stroke-width="2"/>
+
+  <!-- about.html -->
+  <rect x="30" y="200" width="130" height="50" rx="8" fill="#16213e"/>
+  <text x="95" y="220" text-anchor="middle" fill="white" font-weight="bold">about.html</text>
+  <text x="95" y="240" text-anchor="middle" fill="#e94560">(Bio)</text>
+
+  <!-- gallery.html -->
+  <rect x="170" y="200" width="130" height="50" rx="8" fill="#16213e"/>
+  <text x="235" y="220" text-anchor="middle" fill="white" font-weight="bold">gallery.html</text>
+  <text x="235" y="240" text-anchor="middle" fill="#e94560">(Media)</text>
+
+  <!-- data.html -->
+  <rect x="315" y="200" width="130" height="50" rx="8" fill="#16213e"/>
+  <text x="380" y="220" text-anchor="middle" fill="white" font-weight="bold">data.html</text>
+  <text x="380" y="240" text-anchor="middle" fill="#e94560">(Results)</text>
+
+  <!-- contact.html -->
+  <rect x="460" y="200" width="130" height="50" rx="8" fill="#16213e"/>
+  <text x="525" y="220" text-anchor="middle" fill="white" font-weight="bold">contact.html</text>
+  <text x="525" y="240" text-anchor="middle" fill="#e94560">(Contact)</text>
+
+  <!-- Legend -->
+  <rect x="30" y="320" width="640" height="60" rx="8" fill="#e9e9e9"/>
+  <text x="350" y="345" text-anchor="middle" fill="#333" font-size="13">All pages are interlinked via a shared navigation bar</text>
+  <text x="350" y="368" text-anchor="middle" fill="#333" font-size="13">Relative hyperlinks used throughout the site</text>
+
+</svg>
